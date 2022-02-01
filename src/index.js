@@ -1,17 +1,37 @@
+import reportWebVitals from './reportWebVitals';
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+//import state, { checkerFunction } from "./cheatDataLayer"
+//import { rerenderTree } from './rerender'
+//import { addPost, updateNewPost } from './cheatDataLayer'
+import store from "./redux/redux_state"
+import { Provider } from 'react-redux';
 
+
+/* let rerenderTree = (state) => { */
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <BrowserRouter>
+            {/* <StoreContext.Provider value={store}> */}
+            <Provider store={store}>
+                <App /* data={state} dispatch={store.dispatch.bind(store)} store={store} */ />
+            </Provider>
+            {/* </StoreContext.Provider> */}
+        </BrowserRouter>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
+/* }
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+rerenderTree(store.getState());
+
+store.subscribe(() => {
+    let state = store.getState()
+    rerenderTree(state);
+}); */
+
 reportWebVitals();

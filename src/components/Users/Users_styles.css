@@ -1,0 +1,18 @@
+.user-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.user-container .user-ava-follow .user-ava-img {
+  width: 100px;
+}
+
+.user-container span {
+  margin: 10px;
+}
+/*# sourceMappingURL=Users_styles.css.map */

@@ -1,0 +1,10 @@
+.header {
+  background-color: rgb(67, 104, 175);
+  grid-area: head;
+  display: flex;
+  align-items: center;
+  .header-logo {
+    margin-left: 40px;
+    width: 80px;
+  }
+}

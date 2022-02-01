@@ -1,0 +1,50 @@
+.main-content {
+  background-color: #e7ebee;
+  grid-area: main;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-content .content-top-img {
+  width: 100%;
+}
+
+.main-content .content-profile {
+  background-color: white;
+  width: calc(100% - 2px);
+  border: 1px solid #e9e9e9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-content .content-profile .profile-img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.main-content .content-profile .profile-info {
+  margin-top: 15px;
+}
+
+.main-content .content-profile .profile-info .profile-info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=Profile.css.map */

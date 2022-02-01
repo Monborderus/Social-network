@@ -1,0 +1,25 @@
+.dialogs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+.dialogs .dialogs-list {
+  background-color: white;
+  border: 1px solid #e0e4e7;
+}
+
+.dialogs .dialogs-list .dialog-item .active {
+  color: blue;
+}
+
+.dialogs .messages-list {
+  background-color: white;
+  border: 1px solid #e0e4e7;
+}
+
+.dialogs .messages-list .message-item {
+  font-size: 25px;
+}
+/*# sourceMappingURL=Dialogs.css.map */

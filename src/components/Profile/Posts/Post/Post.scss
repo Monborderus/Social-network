@@ -1,0 +1,25 @@
+.content-post {
+  margin-left: 20px;
+
+  .post-item {
+    display: flex;
+    flex-direction: row;
+    //align-items: center;
+    margin: 20px 0px;
+
+    .post-ava {
+      width: 80px;
+      border-radius: 40px;
+    }
+
+    .post-text {
+      margin-left: 20px;
+    }
+
+    .post-button-like {
+      margin-top: auto;
+      margin-left: auto;
+      margin-right: 20px;
+    }
+  }
+}

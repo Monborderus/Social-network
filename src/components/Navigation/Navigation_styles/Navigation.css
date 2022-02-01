@@ -1,0 +1,35 @@
+.navigation {
+  background-color: #e7ebee;
+  grid-area: navigation;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 25px;
+  height: calc(100vh - 125px);
+}
+
+.navigation .nav-elem {
+  margin-left: auto;
+  margin-right: 10px;
+  width: 140px;
+  height: 30px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation .nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation .active {
+  color: #1919d8;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Navigation.css.map */

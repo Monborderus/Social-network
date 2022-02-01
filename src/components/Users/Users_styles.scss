@@ -1,0 +1,12 @@
+.user-container {
+  display: flex;
+  flex-direction: row;
+  .user-ava-follow {
+    .user-ava-img {
+      width: 100px;
+    }
+  }
+  span {
+    margin: 10px;
+  }
+}

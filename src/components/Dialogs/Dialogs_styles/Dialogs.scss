@@ -1,0 +1,22 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  .dialogs-list {
+    background-color: white;
+    border: 1px solid rgb(224, 228, 231);
+
+    .dialog-item {
+      .active {
+        color: blue;
+      }
+    }
+  }
+
+  .messages-list {
+    background-color: white;
+    border: 1px solid rgb(224, 228, 231);
+    .message-item {
+      font-size: 25px;
+    }
+  }
+}
